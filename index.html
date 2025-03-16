@@ -34,14 +34,63 @@ animation:ani2 1s;
                                                                          
  }
 
+header ol
+{
+padding:0px;
+}
+
 header ol li
 {
-padding:20px;
+list-style:none;
+padding:10px;
+cursor:pointer;
 display:inline;
-color:pink;
+margin:1%;
+//font-family:verdana;
+
+
+
 
 
 }
+
+header ol li:hover
+{
+background:black ;
+transform:scale(1.10);
+transition:0.5s;
+border-radius:60px;
+
+
+}
+
+header ol li a:link
+{
+color:pink;
+text-decoration:none;
+font-size:20px;
+}
+
+header ol li a:visited
+{
+color:pink;
+}
+
+header ol li a:hover
+{
+text-decoration:underline;
+color:white;
+
+}
+
+header ol li a:active
+{
+color: red;
+
+}
+
+
+
 
 body
 {
@@ -89,11 +138,11 @@ color:#990747;
 <body>
 <header>
 <ol>
-<li>Home</li>
-<li>Know about</li>
-<li>Pictures</li>
-<li>video content</li>
-<li>Book Ticket</li>
+<li><a href="#">Home</a></li>
+<li><a href="history.html">Know about</a></li>
+<li><a href="#">Pictures</a></li>
+<li><a href="news.html">News</a></li>
+<li><a href="#">Book Ticket</a></li>
 </ol>
 </header>
 
