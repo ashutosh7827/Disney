@@ -15,17 +15,49 @@
 
 100%{background:url(photo/p5.jpg);}
 
+}
 
-
+@keyframes ani2
+{
+10%{left:0%;}
+20%{left:0%;}
+30%{left:-18%;}
+40%{left:-18%;}
+50%{left:-36%;}
+60%{left:-36%;}
+70%{left:-54%;}
+80%{left:-54%;}
+90%{left:-72%;}
+100%{left:-72%;}
 
 }
 
+
 header
 {
-width:100%;
-animation:ani 10s infinite;
+width:640%;
 height:600px;
-background-size:100% 100%;
+margin-left:-32%;
+}
+
+
+.photo
+{
+width:18%;
+height:90%;
+position:relative;
+top:0px;
+margin-left:-10px;
+animation:ani2 12s infinite;
+
+}
+
+#mask
+{
+overflow:hidden;
+margin:auto;
+width:90%;
+height:600px;
 }
 
 .pic
@@ -47,12 +79,15 @@ border:2px solid black;
 
 .logo
 {
-width:10%;
+width:1%;
+margin-left:5%;
+
 }
 
 body
 {
 background:#e5e7e9;
+overflow-x:hidden;
 }
 
 video
@@ -73,6 +108,16 @@ flex-direction:row;
 <header>
 
 <img class="logo" src="photo/logo.png">
+<div id="mask">
+<img src="photo/p1.jpg" class="photo">
+<img src="photo/p2.jpg" class="photo">
+<img src="photo/p3.jpg" class="photo">
+<img src="photo/p4.jpg" class="photo">
+<img src="photo/p5.jpg" class="photo">
+
+
+</div>
+
 
 </header>
 <h1>
