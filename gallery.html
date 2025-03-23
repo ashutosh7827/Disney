@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<title> Photo Gallery </title>
+<head>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<div id="header">
+<h1>
+
+ <font size="8"> Photo Gallery</font> </h1>
+</div>
+</head>
+<style>
+@keyframes ani
+{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+@keyframes ani2
+{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+
+#header
+{
+                                   
+width:20%;
+padding:20px;
+text-align:center;
+margin:auto;
+word-shadow: 10px 10px 20px white;
+color:white;
+transition:1s;
+border-radius:70px;
+                                  
+}
+
+                                                      #header:hover
+                              {
+                                                       cursor:pointer;
+                                                       box-shadow: 10px 10px 20px magenta;
+                                                       color:magenta;
+                                                       background:black;
+                                                       
+
+                                                        
+                                 }
+
+
+                  /* tag style */
+body
+{
+//background:grey;
+background:url(photo/body.jpg);
+background-size:cover;
+}
+
+/* class style */
+.pic
+{
+width:35%;
+height:300px;
+box-shadow: 5px 5px 30px white;
+border-radius:100px;
+margin:50px;
+animation:ani 1s;
+margin-left:8%;
+}
+
+.pic:hover
+{
+cursor:pointer;
+//rder-radius:0px;
+transform:scale(1.05);
+transition:0.2s;
+}
+
+header
+{
+margin-right:95%;
+}
+
+.back
+{
+width:40px;
+margin-left:250%;
+color:white;
+
+}
+
+.back:hover
+{
+Color:white;
+transform:scale(0.75);
+transition:0.55s;
+
+}
+
+
+
+
+
+
+
+
+</style>
+
+<body>
+<header>
+<a href="index.html">
+<img class="back" src="photo/back.jpg">
+</a>
+</header>
+
+
+
+
+
+
+<!--
+<img src="images/p2.jpg" width="10%" alt="jungle picture" border="10">
+-->
+<img class="pic" src="photo\m1.jpg"  alt="jungle picture">
+<img class="pic" src="photo\m2.jpg"  alt="jungle picture">
+<img class="pic" src="photo\m3.jpg"  alt="jungle picture">
+<img class="pic" src="photo\m4.jpg"  alt="jungle picture">
+<img class="pic" src="photo\m5.jpg"  alt="jungle picture">
+<img class="pic" src="photo\m6.jpg"  alt="jungle picture">
+<img class="pic" src="photo\v7.jpg"  alt="jungle picture">
+<img class="pic" src="photo\m8.jpg"  alt="jungle picture">
+<img class="pic" src="photo\m9.jpg"  alt="jungle picture">
+<img class="pic" src="photo\m10.jpg"  alt="jungle picture">
+<img class="pic" src="photo\m11.jpg"  alt="jungle picture">
+<img class="pic" src="photo\m12.jpg"  alt="jungle picture">
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
